@@ -1,4 +1,4 @@
-import Buyable from './Buyable';
+import Buyable from './domain/Buyable';
 
 export default class CartItem {
   constructor(
