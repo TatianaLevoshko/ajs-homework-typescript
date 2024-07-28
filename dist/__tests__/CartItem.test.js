@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Book_1 = __importDefault(require("../domain/Book"));
-const CartItem_1 = __importDefault(require("../domain/CartItem"));
+const CartItem_1 = __importDefault(require("../CartItem"));
 test('should create a CartItem instance with correct properties', () => {
     const book = new Book_1.default(1, 'The Great Gatsby', 750, 180, 'F. Scott Fitzgerald');
     const cartItem = new CartItem_1.default(book, 2);
