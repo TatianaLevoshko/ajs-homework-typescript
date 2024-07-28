@@ -11,7 +11,7 @@ class Cart {
         return [...this._items];
     }
     totalSum() {
-        return this._items.reduce((sum, item) => { var _a; return sum + ((_a = item.prise) !== null && _a !== void 0 ? _a : 0); }, 0);
+        return this._items.reduce((sum, item) => { var _a; return sum + ((_a = item.price) !== null && _a !== void 0 ? _a : 0); }, 0);
     }
     totalSumWithDiscount(discount) {
         return this.totalSum() * ((100 - discount) / 100);

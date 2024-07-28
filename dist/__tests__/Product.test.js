@@ -8,6 +8,6 @@ test('should create a Product instance with correct properties', () => {
     const product = new Product_1.default(1, 'Generic Product', 500);
     expect(product.id).toBe(1);
     expect(product.name).toBe('Generic Product');
-    expect(product.prise).toBe(500);
+    expect(product.price).toBe(500);
 });
 //# sourceMappingURL=Product.test.js.map

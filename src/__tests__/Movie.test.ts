@@ -5,7 +5,7 @@ test('should create a Movie instance with correct properties', () => {
 
   expect(movie.id).toBe(1);
   expect(movie.name).toBe('Avengers');
-  expect(movie.prise).toBe(1500);
+  expect(movie.price).toBe(1500);
   expect(movie.year).toBe(2012);
   expect(movie.country).toBe('USA');
   expect(movie.slogan).toBe('Avengers, assemble!');

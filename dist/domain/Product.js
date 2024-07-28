@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Product {
-    constructor(id, name, prise) {
+    constructor(id, name, price) {
         this.id = id;
         this.name = name;
-        this.prise = prise;
+        this.price = price;
     }
 }
 exports.default = Product;

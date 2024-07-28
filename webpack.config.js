@@ -1,5 +1,5 @@
-const path = require('node:path');
-const HtmlWebPackPlugin = require('html-webpack-plugin');
+import path from 'path';
+import HtmlWebPackPlugin from 'html-webpack-plugin';
 
 module.exports = {
   entry: './src/index.ts', // Входная точка вашего приложения

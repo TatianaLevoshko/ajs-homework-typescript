@@ -1,5 +1,5 @@
 export default interface Buyable {
-	readonly id: number;
-	readonly name: string;
-	readonly prise: number;
-  }
+  readonly id: number;
+  readonly name: string;
+  readonly price: number;
+}

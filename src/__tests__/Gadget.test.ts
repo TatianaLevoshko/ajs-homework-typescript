@@ -5,7 +5,7 @@ test('should create a Gadget instance with correct properties', () => {
 
   expect(gadget.id).toBe(1);
   expect(gadget.name).toBe('iPhone');
-  expect(gadget.prise).toBe(1000);
+  expect(gadget.price).toBe(1000);
   expect(gadget.model).toBe('iPhone 12');
   expect(gadget.manufacturer).toBe('Apple');
 });

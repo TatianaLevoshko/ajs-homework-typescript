@@ -5,5 +5,5 @@ test('should create a Product instance with correct properties', () => {
 
   expect(product.id).toBe(1);
   expect(product.name).toBe('Generic Product');
-  expect(product.prise).toBe(500);
+  expect(product.price).toBe(500);
 });

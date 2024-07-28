@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Gadget {
-    constructor(id, name, prise, model, manufacturer) {
+    constructor(id, name, price, model, manufacturer) {
         this.id = id;
         this.name = name;
-        this.prise = prise;
+        this.price = price;
         this.model = model;
         this.manufacturer = manufacturer;
     }

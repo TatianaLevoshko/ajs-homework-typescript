@@ -12,7 +12,7 @@ export default class Cart {
 	}
 
 	totalSum(): number {
-		return this._items.reduce((sum, item) => sum + (item.prise ?? 0), 0);
+		return this._items.reduce((sum, item) => sum + (item.price ?? 0), 0);
 	}
 	
 	totalSumWithDiscount(discount: number): number {
